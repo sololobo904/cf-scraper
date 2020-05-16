@@ -1,0 +1,22 @@
+{
+  "name": "cf-scraper",
+  "main": "./lib/cf-scraper",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "cf-scraper:fetch"
+  },
+  "repository": "https://github.com/atom/cf-scraper",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "google": "^2.1.0",
+    "mkdirp": "^1.0.4",
+    "request": "^2.88.2",
+    "touch": "^3.1.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Fetch Questions",
+        "command": "cf-scraper:fetch"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "cf-scraper",
+          "submenu": [
+            {
+              "label": "Fetch Questions",
+              "command": "cf-scraper:fetch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
